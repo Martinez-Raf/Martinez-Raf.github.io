@@ -1,0 +1,7 @@
+a {text-decoration: none; color: #ffd54f;} 
+a:hover {color: #E0f2f1} 
+body {background-color: #b2dfdb; font-family: arial; font-size: 14pt;} 
+header {background-color: #004d40; color: #000000; text-align: center;} 
+h1 {line-height: 75px;} 
+article {background-color: #00796b; padding: 5px;} 
+span {color: #cc0000; font-weight: bold;}
