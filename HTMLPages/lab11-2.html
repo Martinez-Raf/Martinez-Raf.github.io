@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <style>
+        #tweet-container {
+                          max-width: 600px;
+                          width: 100%;
+                          margin: auto;
+                          flex-direction: column;
+                         }
+        #tweet-profile {
+                        flex-direction: row;
+                        padding: 10px;
+                       }
+        #tweet-profile-pic {
+                            width: 100px;
+                           }
+        #profile-name img {
+                           width: 15px;
+                          }   
+
+        #profile-info {
+                       flex-direction: column;
+                       margin-left: 150px;
+                       font-family: 'Roboto', sans-serif;
+                       align-items: flex-start;
+                       margin-top: -75px;
+                      }
+        #down-arrow {
+                     width: 100%;
+                     display: flex;
+                     justify-content: flex-end;
+                     align-items: baseline;
+                     margin-top: -50px;
+                    }
+        #down-arrow img {
+                         width: 15px;
+                        }
+        #profile-hash {
+                       color: gray;
+                      }
+        #tweet-text {
+                     color: gray;
+                     font-size: 25px;
+                     margin-left: 15px;
+                     margin-top: 75px;
+                     font-family: 'Roboto', sans-serif;
+                    }
+        #tweet-pic {
+                    width: 100%;
+                    border-radius: 10px;
+                    background-color: antiquewhite;
+                    padding: 20px;
+                   }
+        #tweet-pic img {
+                        width: 600px;
+                       }
+        #tweet-meta-info {
+                          border-bottom: 600px;
+                          font-family: 'Roboto', sans-serif;
+                          font-size: 15px;
+                         }
+        #icons {
+                display: flex;
+                justify-content: space-around;
+               }
+        #icons img {
+                    width: 22.5x22.5px;
+                   }
+
+    </style>
+
+</head>
+
+<body>
+     <div id="tweet-container">
+       <div id="tweet-profile">
+          <img src="tweet-profile-pic.PNG">
+            <div id="profile-info">
+              <div id="profile-name"> AUDL <img src="verified.png"></div>
+              <div id="profile-hash"> @theAUDL </div>
+              <div id="down-arrow"><img src="down-arrow.svg"></div>
+            </div>
+       </div>
+       <div id="tweet-text">Them: Not a sport <br> Us: </div>
+       <div id="tweet-pic"><img src=tweet-pic.jpg></div>
+       <div id="tweet-meta-info">8:41 AM * Nov 3,2019 * Twitter Web App</div>
+       <div id="tweet-meta-info">32 Retweets  249 Likes</div> 
+       <div id="icons"><img src="reply.PNG"><img src="retweet.PNG"><img src="like.PNG"><img src="msg.PNG"></div>    
+     </div>
+</body>
+</html>
